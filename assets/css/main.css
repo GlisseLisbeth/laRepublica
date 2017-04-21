@@ -1,0 +1,233 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-align: -ms-center;
+  text-align: -moz-center;
+  text-align: -o-center;
+  text-align: -webkit-center;
+  font-family: "Roboto";
+  /*background: #FFFFFF  ;*/
+  background: transparent;
+
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.temporal{
+  background-image: url("../img/e1f6v8.png");
+  margin-top: -19px;
+  z-index: -1;
+}
+.banner{
+   background: #E00109;
+   padding: 42px 0;
+}
+.logo{
+  position: absolute;
+  display: inline-block;
+  vertical-align: baseline;
+  top: 9px;
+  left: 175px;
+}
+.network-sotial, menu-bar{
+  position: relative;
+  display: inline-block;
+  left: 90px;
+  bottom: 24px;
+}
+.ul-network-sotial, .ul-menu-bar{
+  display: inline-block;
+
+}
+.li-network-sotial{
+  list-style: none;
+  display: inline-block;
+  margin: 0 4px;
+}
+.fa-stack{
+  text-align: center;
+  background: white;
+  color: #E00109;
+  border-radius: 50px;
+  font-size: 100%;
+}
+.search{
+  position: absolute;
+  right: 207px;
+  top: 15px;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 82px;
+  height: 30px;
+  padding-left: 3px;
+  }
+.fa-search{
+  font-size: 10px;
+  color: white;
+  background: transparent;
+  position: absolute;
+  right: 1px;
+  top: 2px;
+}
+
+div.search span{
+  display: inline-block;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  left: 10px;
+  top: 6px;
+}
+
+div.search .fa-stack{
+  display: inline-block;
+  position: absolute;
+  top: -6px;
+  left: 40px;
+}
+
+div.menu{
+  background: #5C5C66;
+  height: 42px;
+  width: 100%;
+  padding: 0px 22px 0px 8px;
+}
+
+div.menu .menu-bar{
+  position: relative;
+    width: 75%;
+    background: #4D4D59;
+    height: 100%;
+}
+
+.li-menu-bar{
+  list-style: none;
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.li-menu-bar a{
+  padding: 15px 9px 12px;
+    margin: 0 7px 0 0;
+    font-size: 12.7px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.li-menu-bar a>i{
+  position: relative;
+  top: -2px;
+  margin: 0px 0 0 7px;
+}
+
+div.content{
+  position: relative;
+  background: transparent;
+  /*background: #EBEBEB;*/
+  height: 545px;
+  width: 100%;
+  top: -10px;
+  padding: 0px 22px 0px 8px;
+  bottom: 0px;
+}
+
+div.content .content-main{
+  position: relative;
+    width: 75%;
+    background: transparent;
+    /*background: #FFFFFF  ;*/
+    height: 100%;
+    margin: 10px 10px;
+    overflow: hidden;
+}
+
+div.content .content-main .content-main-left{
+  position: relative;
+  width: 66.66667%;
+  float: left;
+  height: 100%;
+}
+
+div.content .content-main .content-main-left .article-a{
+  position: absolute;
+  height: 260px;
+  /*background-color: #333340;*/
+  background: transparent;
+  width: 640px;
+  margin: -6px 18px;
+  text-align: left;
+  padding: 10px;
+}
+
+div.content .content-main .content-main-left .article-b{
+  position: absolute;
+    height: 260px;
+    background-color: #333340;
+    width: 310px;
+    margin: 0px 18px;
+    bottom: 0;
+}
+
+div.content .content-main .content-main-left .article-c{
+  position: absolute;
+    height: 260px;
+    background-color: #333340;
+    width: 310px;
+    bottom: 0;
+    right: 0;
+}
+
+div.content .content-main .content-main-left .article-a h1{
+  color: #fff;
+    font-size: 27px;
+    line-height: 29px;
+    width: 34%;
+}
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-alcalde-de-chilca {
+    width: 243px;
+    height: 270px;
+    background-position: -5px -5px;
+}
+
+.sprite-alejandra-aramayo {
+    width: 312px;
+    height: 165px;
+    background-position: -258px -5px;
+}
+
+.sprite-anuncio {
+    width: 310px;
+    height: 86px;
+    background-position: -258px -180px;
+}
+
+.sprite-corea-del-norte- {
+    width: 312px;
+    height: 165px;
+    background-position: -258px -276px;
+}
+
+.sprite-odebrecht {
+    width: 425px;
+    height: 250px;
+    background-position: -580px -5px;
+}
+
+.sprite-senora {
+    width: 53px;
+    height: 84px;
+    background-position: -580px -265px;
+}
