@@ -10,18 +10,13 @@ body{
   text-align: -o-center;
   text-align: -webkit-center;
   font-family: "Roboto";
-  /*background: #FFFFFF  ;*/
+  background: #FFFFFF  ;
   background: transparent;
 
 }
 a{
   color: white;
   text-decoration: none;
-}
-.temporal{
-  background-image: url("../img/e1f6v8.png");
-  margin-top: -19px;
-  z-index: -1;
 }
 .banner{
    background: #E00109;
@@ -128,8 +123,7 @@ div.menu .menu-bar{
 
 div.content{
   position: relative;
-  background: transparent;
-  /*background: #EBEBEB;*/
+  background: #EBEBEB;
   height: 545px;
   width: 100%;
   top: -10px;
@@ -140,8 +134,7 @@ div.content{
 div.content .content-main{
   position: relative;
     width: 75%;
-    background: transparent;
-    /*background: #FFFFFF  ;*/
+    background: #FFFFFF  ;
     height: 100%;
     margin: 10px 10px;
     overflow: hidden;
@@ -157,8 +150,7 @@ div.content .content-main .content-main-left{
 div.content .content-main .content-main-left .article-a{
   position: absolute;
   height: 260px;
-  /*background-color: #333340;*/
-  background: transparent;
+  background-color: #333340;
   width: 640px;
   margin: -6px 18px;
   text-align: left;
